@@ -1,0 +1,24 @@
+=====================================================
+HOW TO LAUNCH THE CHEMICAL YIELD PREDICTION APP
+=====================================================
+
+WINDOWS USERS:
+-----------------------------------------------------
+Go into the 'windows' folder and double-click:
+  run.bat
+
+
+MAC / LINUX USERS:
+-----------------------------------------------------
+Go into the 'mac_linux' folder, open Terminal, and run:
+  chmod +x run.sh && ./run.sh
+
+
+MANUAL TERMINAL FALLBACK:
+-----------------------------------------------------
+From the project root folder, run:
+1. pip install -r requirements.txt
+2. streamlit run frontend/app.py
+
+Browser URL: http://localhost:8501
+=====================================================

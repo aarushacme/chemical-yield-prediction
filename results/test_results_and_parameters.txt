@@ -1,0 +1,17 @@
+=====================================================
+MODEL EVALUATION RESULTS & PARAMETERS
+=====================================================
+Mean Squared Error (MSE)      : 30.7634
+Mean Absolute Error (MAE)     : 3.6513%
+R-squared Score (R2)          : 0.9640
+
+MODEL ARCHITECTURE & TRAINING PARAMETERS:
+- Model Type                  : Artificial Neural Network (ANN)
+- Hidden Layers               : 1 Dense Layer (16 neurons, ReLU)
+- Output Layer                : 1 Dense Layer (1 neuron, Linear)
+- Optimizer                   : Adam (learning rate = 0.01)
+- Loss Function               : Mean Squared Error (MSE)
+- Training Epochs             : 100
+- Batch Size                  : 32
+- Train/Test Split            : 80% Train (981 samples) / 20% Test (246 samples)
+=====================================================

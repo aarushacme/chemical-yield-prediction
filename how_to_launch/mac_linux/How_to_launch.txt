@@ -1,0 +1,25 @@
+=====================================================
+HOW TO LAUNCH (MAC / LINUX)
+=====================================================
+
+PLAN A (ONE-CLICK LAUNCH):
+-----------------------------------------------------
+Open Terminal in this folder and run:
+chmod +x run.sh && ./run.sh
+
+
+PLAN B (MANUAL TERMINAL FALLBACK):
+-----------------------------------------------------
+If Plan A does not launch, open Terminal in the main
+project folder and run:
+
+Step 1: Install required packages
+pip install -r requirements.txt
+
+Step 2: Start the application
+streamlit run frontend/app.py
+
+Once running, the application will open automatically
+in your browser at:
+http://localhost:8501
+=====================================================

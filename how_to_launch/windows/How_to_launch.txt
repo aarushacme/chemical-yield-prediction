@@ -1,0 +1,24 @@
+=====================================================
+HOW TO LAUNCH (WINDOWS)
+=====================================================
+
+PLAN A (ONE-CLICK LAUNCH):
+-----------------------------------------------------
+Double-click the file named 'run.bat' in this folder.
+
+
+PLAN B (MANUAL TERMINAL FALLBACK):
+-----------------------------------------------------
+If Plan A does not launch, open Command Prompt or
+PowerShell in the main project folder and run:
+
+Step 1: Install required packages
+pip install -r requirements.txt
+
+Step 2: Start the application
+streamlit run frontend/app.py
+
+Once running, the application will open automatically
+in your browser at:
+http://localhost:8501
+=====================================================
